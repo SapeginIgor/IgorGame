@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PauseMenu"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="274dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="128dp"
+        android:text="Главное Меню"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/continuebtn"
+        android:layout_width="300dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="128dp"
+        android:text="Продолжить"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/mainmenu"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
